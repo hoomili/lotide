@@ -2,6 +2,8 @@ const letterPositions = function(sentence) {
   const results = {};
   const stringToArray = sentence.split("");
   console.log(stringToArray);
+  
+  
   for (let i = 0; i < stringToArray.length; i++) {
     if (stringToArray[i] !== ' ') {
         if (results[stringToArray[i]]) {
