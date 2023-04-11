@@ -14,8 +14,8 @@ const countLetters = function(aSentence) {
   return results;
 };
 module.exports = countLetters;
-const result1 = countLetters("lighthouse in the house");
-assertEqual(result1["h"], 1);
-assertEqual(result1["h"], 4);
-assertEqual(result1["m"], 2);
-assertEqual(result1["n"], 1);
+// const result1 = countLetters("lighthouse in the house");
+// assertEqual(result1["h"], 1);
+// assertEqual(result1["h"], 4);
+// assertEqual(result1["m"], 2);
+// assertEqual(result1["n"], 1);
