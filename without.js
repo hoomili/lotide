@@ -30,6 +30,7 @@ const without = function (source, itemsToRemove) {
   }
   return newArray;
 }
+module.exports = without;
 console.log(without([1, 2, 3, 4, 5, 6, 7], [1, 6]))
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case
